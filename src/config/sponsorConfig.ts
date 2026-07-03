@@ -24,7 +24,7 @@ export const sponsorConfig: SponsorConfig = {
 	methods: [
 		{
 			name: "OKX",
-			icon: "fa7-brands:okx",
+			icon: "simple-icons:okx",
 			// 收款码图片路径（需要放在 public 目录下）
 			qrCode: "/assets/images/sponsor/okx.jpg",
 			link: "",
@@ -43,7 +43,7 @@ export const sponsorConfig: SponsorConfig = {
 			name: "kofi",
 			icon: "simple-icons:kofi",
 			qrCode: "",
-			link: "hhttps://ko-fi.com/nanfang",
+			link: "https://ko-fi.com/nanfang",
 			description: "Buy a Coffee for Firefly",
 			enabled: true,
 		},
