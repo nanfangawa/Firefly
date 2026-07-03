@@ -23,27 +23,27 @@ export const sponsorConfig: SponsorConfig = {
 	// 打赏方式列表
 	methods: [
 		{
-			name: "支付宝",
-			icon: "fa7-brands:alipay",
+			name: "OKX",
+			icon: "fa7-brands:okx",
 			// 收款码图片路径（需要放在 public 目录下）
-			qrCode: "/assets/images/sponsor/alipay.png",
+			qrCode: "/assets/images/sponsor/okx.jpg",
 			link: "",
-			description: "使用 支付宝 扫码打赏",
+			description: "使用 OKX 扫码打赏",
 			enabled: true,
 		},
 		{
 			name: "微信",
 			icon: "fa7-brands:weixin",
-			qrCode: "/assets/images/sponsor/wechat.png",
+			qrCode: "/assets/images/sponsor/wechat.jpg",
 			link: "",
 			description: "使用 微信 扫码打赏",
 			enabled: true,
 		},
 		{
-			name: "ko-fi",
+			name: "kofi",
 			icon: "simple-icons:kofi",
 			qrCode: "",
-			link: "https://ko-fi.com/cuteleaf",
+			link: "hhttps://ko-fi.com/nanfang",
 			description: "Buy a Coffee for Firefly",
 			enabled: true,
 		},
@@ -53,7 +53,7 @@ export const sponsorConfig: SponsorConfig = {
 			qrCode: "",
 			link: "https://ifdian.net/a/cuteleaf",
 			description: "通过 爱发电 进行打赏",
-			enabled: true,
+			enabled: false,
 		},
 	],
 
